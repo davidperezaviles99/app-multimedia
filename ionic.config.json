@@ -1,0 +1,8 @@
+{
+  "name": "app-multimedia",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
