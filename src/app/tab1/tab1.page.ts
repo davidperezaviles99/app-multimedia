@@ -300,7 +300,7 @@ export class Tab1Page implements OnInit {
       this.streamingMedia.playVideo(f.nativeURL);
 
     } else if (f.name.indexOf('.jpg') > -1) {
-      this.photoViewer.show(f.nativeURL, 'Imagen creada por DanielGV');
+      this.photoViewer.show(f.nativeURL, '');
 
     } else if (f.name.indexOf('.amr') > -1) {
       this.streamingMedia.playAudio(f.nativeURL);

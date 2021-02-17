@@ -164,7 +164,7 @@ export class HomeComponent implements OnInit {
     } else if (f.name.indexOf('.MOV') > -1 || f.name.indexOf('.mp4') > -1) {
       this.streamingMedia.playVideo(f.nativeURL);
     } else if (f.name.indexOf('.jpg') > -1) {
-      this.photoViewer.show(f.nativeURL, 'Imagen creada por DanielGV');
+      this.photoViewer.show(f.nativeURL, '');
     }
   }
 
